@@ -1,0 +1,6 @@
+{
+  "name": "Sarangier POS",
+  "description": "Sistema POS, Inventario y Liquidación Diaria para Distribuidora Sarangier.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,231 @@
+---
+name: Botanical Hygiene Commerce
+colors:
+  surface: '#fcf9f2'
+  surface-dim: '#dcdad3'
+  surface-bright: '#fcf9f2'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f6f3ec'
+  surface-container: '#f1eee7'
+  surface-container-high: '#ebe8e1'
+  surface-container-highest: '#e5e2db'
+  on-surface: '#1c1c18'
+  on-surface-variant: '#414844'
+  inverse-surface: '#31312c'
+  inverse-on-surface: '#f3f0e9'
+  outline: '#717973'
+  outline-variant: '#c1c8c2'
+  surface-tint: '#3f6653'
+  primary: '#012d1d'
+  on-primary: '#ffffff'
+  primary-container: '#1b4332'
+  on-primary-container: '#86af99'
+  inverse-primary: '#a5d0b9'
+  secondary: '#006c48'
+  on-secondary: '#ffffff'
+  secondary-container: '#92f7c3'
+  on-secondary-container: '#00734d'
+  tertiary: '#382100'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#563400'
+  on-tertiary-container: '#e79400'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#c1ecd4'
+  primary-fixed-dim: '#a5d0b9'
+  on-primary-fixed: '#002114'
+  on-primary-fixed-variant: '#274e3d'
+  secondary-fixed: '#92f7c3'
+  secondary-fixed-dim: '#75daa8'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005235'
+  tertiary-fixed: '#ffddb8'
+  tertiary-fixed-dim: '#ffb95f'
+  on-tertiary-fixed: '#2a1700'
+  on-tertiary-fixed-variant: '#653e00'
+  background: '#fcf9f2'
+  on-background: '#1c1c18'
+  surface-variant: '#e5e2db'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 2.25rem
+    fontWeight: '700'
+    lineHeight: 2.75rem
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.75rem
+    fontWeight: '700'
+    lineHeight: 2.25rem
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.375rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.125rem
+    fontWeight: '600'
+    lineHeight: 1.5rem
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: 1.375rem
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.75rem
+    fontWeight: '400'
+    lineHeight: 1.125rem
+  label-numeric-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.5rem
+    fontWeight: '700'
+    lineHeight: 1.75rem
+    letterSpacing: 0em
+  label-numeric-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0em
+  label-mono-sku:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.75rem
+    fontWeight: '600'
+    lineHeight: 1rem
+    letterSpacing: 0.04em
+  label-action:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.875rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0.01em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system serves modern commerce, inventory management, and POS environments focused on disposable goods, eco-packaging, and institutional hygiene supplies. It balances commercial speed and tactile utility with a distinct organic freshness derived directly from the brand seal.
+
+### Design Movement & Aesthetic
+The visual identity fuses **Modern Clean SaaS / POS Utility** (inspired by systems like Square Terminal, Shopify POS, and Linear) with an **Organic Earth & Botanical Tone**. Rather than relying on sterile, cold grays, it leverages warm bone, warm sand, and deep forest emeralds to communicate cleanliness, environmental consciousness, and commercial trust.
+
+### Emotional Response & Principles
+- **Effortless Precision:** Fast transaction speed, unambiguous visual hierarchies, and rapid data comprehension in high-frequency sales environments.
+- **Organic Reliability:** Deep emeralds provide brand grounding and institutional stability, while warm sand canvases reduce glare and digital fatigue during long shifts.
+- **Physical Tactility:** Generous tap targets (44px minimum touch targets), responsive active states, and tactile surface separation designed for both handheld barcode terminals and high-resolution counter displays.
+
+## Colors
+
+The palette directly reflects the physical commodities of the business—cellulose paper, eco-friendly disposables, botanical cleaners, and institutional packaging.
+
+### Functional Palette Structure
+- **Primary Brand & Income (`#1B4332` / `#2D6A4F`):** Deep emerald forest green. Anchors top navigation, primary actions, positive cash inflow, invoice approvals, and core branding.
+- **Secondary / Positive Status (`#52B788`):** Sage leaf. Used for healthy inventory levels, confirmations, order completion tags, and active operational badges.
+- **Tertiary / Warning (`#F59E0B`):** Warm amber. Dictates low-stock notifications, replenishment alerts, and pending payment holds.
+- **Critical & Expense (`#EF4444`):** Soft coral red. Identifies stockouts (`stock = 0`), critical alerts, cancellations, credit notes, and operating expenses.
+- **Technical Slate (`#475569`):** Slate blue-gray. Dedicated to operational metadata, SKUs, barcode values, batch numbers, and secondary table columns.
+- **Neutral Canvas & Surfaces (`#FAFAF7` / `#F4F1EA`):** Warm bone-linen base. Creates an organic, anti-glare foundation that cleanly contrasts against pure white card surfaces (`#FFFFFF`).
+- **Text & Contrast:** Heavy charcoal `#111827` for high-legibility item names, unit values, and cash registers.
+
+## Typography
+
+The typography relies on **Plus Jakarta Sans**, offering geometric precision paired with friendly, approachable terminal counters. 
+
+### Tabular Numbers & Financial Data
+All inventory counts, prices, batch identifiers, and stock metrics must strictly employ tabular lining figures:
+`font-feature-settings: "tnum" 1, "cv05" 1;`
+This guarantees vertical alignment across multi-line order dockets, invoice calculation lines, and stock comparison grids without horizontal jitter.
+
+### Hierarchy & Responsive Adaptations
+- **Transaction Totals (`label-numeric-lg`):** Reserved for cart balances, drawer totals, and main KPI figures.
+- **Technical Identifiers (`label-mono-sku`):** Rendered uppercase with generous tracking (`0.04em`) in Slate Blue (`#475569`) to distinguish product codes from standard descriptions.
+- **Mobile Adaptations:** For mobile handheld scanners and smaller terminal screens, `headline-xl` scales down to `headline-lg` (`1.75rem`), preserving vertical canvas for lists and checkout carts.
+
+## Layout & Spacing
+
+The layout philosophy uses a **density-adaptive fluid grid** built for POS registers, stockroom tablets, and administrative desktop consoles.
+
+### Grid Rhythm & Screen Breakpoints
+- **Mobile Handheld (360px - 599px):** Single-column layout. Margin `1rem`, gutter `0.75rem`. Sticky checkout bottom bar; full-width product scanning cards.
+- **Counter Tablet / Split POS (600px - 1023px):** Two-column operational split (60% item catalogue grid, 40% persistent ticket/cart panel). Margin `1.25rem`, gutter `1rem`.
+- **Desktop Backoffice (1024px+):** Max canvas `1440px` centered. 12-column grid for inventory matrices, reorder analytics, and batch management. Margin `2rem`, gutter `1.25rem`.
+
+### Touch-First Density Rules
+Vertical tap rhythm is prioritized over extreme compactness:
+- Interactive rows maintain an explicit minimum footprint of `44px` to `48px` to prevent mis-taps in fast-paced retail or warehouse dispatch stations.
+- Spacing between adjacent interactive tiles must never drop below `space-sm` (`0.5rem`).
+
+## Elevation & Depth
+
+Visual hierarchy is constructed through **tonal surface layering** combined with **subtle, organic ambient shadows** and crisp micro-borders. High-gloss or pure skeuomorphic treatments are avoided in favor of crisp, modern POS ergonomics.
+
+### Surface Tiers
+- **Canvas Base (`Level 0`):** `#F4F1EA` (warm sand-linen). Defines the global floor.
+- **Structural Containers (`Level 1`):** `#FFFFFF` (crisp white). Used for cards, grid items, and table sheets. Border: `1px solid rgba(27, 67, 50, 0.08)`. Shadow: `0 1px 3px rgba(27, 67, 50, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02)`.
+- **Flyout Drawers & Modals (`Level 2`):** `#FFFFFF`. Floating cart summaries, tender dialogue modals, and barcode scanning popups. Shadow: `0 10px 25px -5px rgba(27, 67, 50, 0.12), 0 8px 10px -6px rgba(27, 67, 50, 0.08)`.
+- **Sticky POS Bar / Action Strip (`Level 3`):** Fixed bottom/side tender execution bars. Casts an upward diffused shadow tinted in primary green: `0 -4px 16px rgba(27, 67, 50, 0.08)`.
+
+### Border Discipline
+All surfaced containers feature a delicate 1px boundary using muted botanical tones (`rgba(27, 67, 50, 0.08)` or `rgba(71, 85, 105, 0.12)`), ensuring structural edge clarity under harsh retail or warehouse lighting.
+
+## Shapes
+
+The design system adopts a **soft-rounded physical curvature** (10px to 14px for standard containers) that reflects modern hardware terminals while mirroring the circular, organic curves of the brand identity.
+
+### Geometry Specifications
+- **Base Components (Inputs, Table Rows, Standard Buttons):** `rounded-md` (`0.625rem` / `10px`).
+- **Cards, POS Tiles, and Modals:** `rounded-lg` (`0.875rem` / `14px`). Softens large operational surfaces without sacrificing data density.
+- **Status Badges, Stock Pills, and Quantity Counters:** Fully pill-shaped (`9999px` / `rounded-full`) to immediately segregate metadata tags from actionable rectangular inputs.
+
+## Components
+
+### Buttons & Quick-Action Triggers
+- **Primary Action (Tender / Register / Save):** Minimum height `48px`. Background `#1B4332`, text `#FFFFFF`, radius `10px`. Hover: `#2D6A4F`. Active/Pressed: transform scale down `0.98` with `#143326`.
+- **Secondary (Add Item / Split Bill):** Height `44px`. Background `#FFFFFF`, border `1.5px solid #2D6A4F`, text `#1B4332`.
+- **Destructive / Void (`stock = 0` / Clear Order):** Soft coral `#EF4444` background or `#FEE2E2` tint with `#DC2626` text.
+
+### Product & Stock Cards (POS Grid)
+- Background `#FFFFFF`, rounded `14px`, padding `1rem`. Includes a defined image/icon slot for disposable/hygiene items (e.g., cups, roll towels, detergents).
+- Top right features the status pill badge:
+  - In Stock: `#ECFDF5` background, `#2D6A4F` text.
+  - Low Stock: `#FEF3C7` background, `#D97706` text.
+  - Out of Stock: `#FEE2E2` background, `#DC2626` text.
+- Price displayed in `label-numeric-lg` with tabular alignment (`$ 12.500`).
+
+### Numeric Quantity Stepper
+- Integrated `+` / `–` button unit with minimum hit areas of `44x44px`. Tabular number displayed centrally in high-contrast charcoal `#111827`.
+
+### Input & Search Fields
+- Height `48px`. Background `#FFFFFF`, border `1.5px solid rgba(71, 85, 105, 0.2)`, text `#111827`, placeholder `#94A3B8`. 
+- Focus state: Border `#2D6A4F` with a soft emerald halo `box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.15)`.
+
+### Operational Data Tables
+- Header row styled in `#F4F1EA` with uppercase metadata tracking (`label-mono-sku`).
+- Alternating row striping disabled in favor of clean 1px bottom divider lines (`#E2E8F0`).
+- Strict right-alignment for SKU numbers, physical inventory counts, and financial totals using tabular numeral settings.
